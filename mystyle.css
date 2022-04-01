@@ -1,0 +1,85 @@
+pre {
+   font-family: Arial,monospace;
+   font-weight: ;
+}
+
+
+/*-----------------------------Navbar--------------------------*/
+.butt {
+   border: 1px outset ;
+   background-color: black;
+   color: white;
+   height:25px;
+   //width:50px;
+   cursor:pointer;
+}
+
+.butt:hover {
+   background-color: red;
+   color:white;
+}
+.butt:active {
+    border: 1px blue;
+}
+/*--------------------------Table-------------------------------*/
+
+tr{
+
+}
+.td{
+   background-color: #CEFCE0;
+  border: 1px solid #CEFCE0;
+  color: black;
+  column-width:100px;
+  font-size: 16px;
+}
+.td1{
+   background-color: #FFE0E2;
+  border: 1px solid #FFE0E2;
+  color: black;
+  column-width:100px;
+  font-size: 16px;
+}
+.th{
+  background-color: #9583FF;
+  border: 1px solid #9583FF;
+  color: white;
+  column-width:100px;
+  font-size: 16px;
+}
+.a{
+   background-color: #9583FF;
+  border: 1px solid #9583FF;
+  color: white;
+  column-width:200px;
+  font-size: 16px;
+}
+
+.table{
+  //zcolor:white; 
+  font-size: 11pt; 
+  font-style: normal;
+  font-weight: bold;
+  text-align:center; 
+  color: white;
+  background-color: #9583FF; 
+  border-collapse: collapse; 
+  border: 2px solid white;;
+}
+
+/*-------------------Select-----------------------*/
+.myselect{
+   border-radius: 5px;
+   background: #D6D5D6;
+   border-color:black;
+}
+
+/*---------------------Dump----------------------*/
+.dump{
+  background-color: white;
+  width: 500px;
+  border: 1px solid black;
+  margin-top : 10px;
+  word-wrap: break-word;
+  font-weight: bold;
+}
